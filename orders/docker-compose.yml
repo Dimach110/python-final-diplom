@@ -1,0 +1,16 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:13.0-alpine
+    ports:
+      - "5430:5432"
+    volumes:
+      - /orders_db_pg
+    environment:
+      POSTGRES_USER: 'user'
+      POSTGRES_PASSWORD: 'userpsql'
+      POSTGRES_DB: 'diplom_db'
+#      POSTGRES_USER: ${PG_USER}
+#      POSTGRES_PASSWORD: ${PG_PASSWORD}
+#      POSTGRES_DB: ${PG_DB}
