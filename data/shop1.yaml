@@ -1,25 +1,25 @@
-shop: Связной
+shop: М-видео
 categories:
   - id: 224
     name: Смартфоны
   - id: 15
     name: Аксессуары
   - id: 1
-    name: Flash-накопители
+    name: Ноутбуки
 
 goods:
-  - id: 4216292
+  - id: 4216255
     category: 224
-    model: apple/iphone/xs-max
-    name: Смартфон Apple iPhone XS Max 512GB (золотистый)
-    price: 110000
-    price_rrc: 116990
-    quantity: 14
+    model: Xiaomi/12T Pro
+    name: Смартфон Xiaomi 12T Pro 12/256GB (blue)
+    price: 56000
+    price_rrc: 62000
+    quantity: 22
     parameters:
-      "Диагональ (дюйм)": 6.5
-      "Разрешение (пикс)": 2688x1242
-      "Встроенная память (Гб)": 512
-      "Цвет": золотистый
+      "Диагональ (дюйм)": 6.7
+      "Разрешение (пикс)": 2700x1220
+      "Встроенная память (Гб)": 256
+      "Цвет": голубой
   - id: 4216313
     category: 224
     model: apple/iphone/xr
