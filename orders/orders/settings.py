@@ -111,9 +111,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Moscow' # Скорректировал время по МСК
 
 USE_I18N = True
 
@@ -155,3 +155,4 @@ REST_FRAMEWORK = {
     ),
 
 }
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'

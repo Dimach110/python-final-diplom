@@ -16,13 +16,18 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from backend.views import ImportPrice, ShopView, ProductView
+from backend.views import ImportPrice, ShopView, ProductView, RegisterUser, LoginUser, RegisterPartner
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('shop', ShopView.as_view(), name='shops view'),
-    path('product', ProductView.as_view(), name='product view'),
-    path('import', ImportPrice.as_view(), name='import_price'),
-    path('shop', ShopView.as_view(), name='add new shop'),
-    path('product', ProductView.as_view(), name='add new product'),
+    path('api/v1/shop', ShopView.as_view(), name='shops view'),
+    path('api/v1/product', ProductView.as_view(), name='product view'),
+    path('api/v1/import', ImportPrice.as_view(), name='import price'),
+    path('api/v1/shop', ShopView.as_view(), name='add new shop'),
+    path('api/v1/product', ProductView.as_view(), name='add new product'),
+    path('api/v1/user/registration', RegisterUser.as_view(), name='registration'),
+    path('api/v1/user/login', LoginUser.as_view(), name='login user'),
+    path('api/v1/partner/import', ImportPrice.as_view(), name='import price'),
+    path('api/v1/partner/registration', RegisterPartner.as_view(), name='registration Partner'),
+
 ]

@@ -11,6 +11,7 @@ services:
       POSTGRES_USER: 'user'
       POSTGRES_PASSWORD: 'userpsql'
       POSTGRES_DB: 'diplom_db'
+      TZ: 'Europe/Moscow'
 #      POSTGRES_USER: ${PG_USER}
 #      POSTGRES_PASSWORD: ${PG_PASSWORD}
 #      POSTGRES_DB: ${PG_DB}
