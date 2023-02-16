@@ -23,12 +23,12 @@ goods:
   - id: 4216319
     category: 224
     model: Samsung/S-series/S23
-    name: Смартфон Samsung S23 256GB (Gray)
+    name: Смартфон Samsung S-series S23 256GB (Gray)
     price: 60000
     price_rrc: 82000
-    quantity: 20
+    quantity: 25
     parameters:
       "Диагональ (дюйм)": 6.3
-      "Разрешение (пикс)": 2300x1080
+      "Разрешение (пикс)": 2300x1180
       "Встроенная память (Гб)": 256
       "Цвет": Серый
