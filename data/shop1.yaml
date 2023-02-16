@@ -1,4 +1,4 @@
-shop: М-видео
+shop: связной
 categories:
   - id: 224
     name: Смартфоны
@@ -8,10 +8,10 @@ categories:
     name: Ноутбуки
 
 goods:
-  - id: 4216255
+  - id: 2235532
     category: 224
-    model: Xiaomi/12T Pro
-    name: Смартфон Xiaomi 12T Pro 12/256GB (blue)
+    model: Xiaomi/12T
+    name: Смартфон Xiaomi 12T 8/256GB (blue)
     price: 56000
     price_rrc: 62000
     quantity: 22
@@ -20,39 +20,16 @@ goods:
       "Разрешение (пикс)": 2700x1220
       "Встроенная память (Гб)": 256
       "Цвет": голубой
-  - id: 4216313
+  - id: 4216317
     category: 224
-    model: apple/iphone/xr
-    name: Смартфон Apple iPhone XR 256GB (красный)
-    price: 65000
-    price_rrc: 69990
-    quantity: 9
-    parameters:
-      "Диагональ (дюйм)": 6.1
-      "Разрешение (пикс)": 1792x828
-      "Встроенная память (Гб)": 256
-      "Цвет": красный
-  - id: 4216226
-    category: 224
-    model: apple/iphone/xr
-    name: Смартфон Apple iPhone XR 256GB (черный)
-    price: 65000
-    price_rrc: 69990
-    quantity: 5
-    parameters:
-      "Диагональ (дюйм)": 6.1
-      "Разрешение (пикс)": 1792x828
-      "Встроенная память (Гб)": 256
-      "Цвет": черный
-  - id: 4672670
-    category: 224
-    model: apple/iphone/xr
-    name: Смартфон Apple iPhone XR 128GB (синий)
+    model: Samsung/S-series/S23
+    name: Смартфон Samsung S23 256GB (Gray)
     price: 60000
-    price_rrc: 64990
-    quantity: 7
+    price_rrc: 82000
+    quantity: 20
     parameters:
-      "Диагональ (дюйм)": 6.1
-      "Разрешение (пикс)": 1792x828
+      "Диагональ (дюйм)": 6.3
+      "Разрешение (пикс)": 2300x1080
       "Встроенная память (Гб)": 256
-      "Цвет": синий
+      "Цвет": Серый
+  -
