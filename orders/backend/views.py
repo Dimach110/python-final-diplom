@@ -512,9 +512,7 @@ class PartnerOrder(APIView):
 
 
 class OrderView(APIView):
-    """
-    Класс для получения и размещения заказов пользователями
-    """
+    """ Класс для получения и размещения заказов пользователями """
 
     @query_debugger
     def get(self, request, order_id=None, *args, **kwargs):
