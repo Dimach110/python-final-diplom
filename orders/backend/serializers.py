@@ -1,5 +1,5 @@
 from django.db.models import Sum, F
-from rest_framework import serializers
+from rest_framework import serializers, validators
 
 from backend.models import Shop, Category, Product, User, Contact, ProductParameter, ProductInfo, Order, OrderItem
 
@@ -42,11 +42,11 @@ class ContactSerializer(serializers.ModelSerializer):
     class Meta:
         model = Contact
         fields = ('id', 'city', 'street', 'house', 'structure', 'building', 'apartment', 'user', 'phone')
-        # fields = '__all__'
         read_only_fields = ('id',)
         extra_kwargs = {
             'user': {'write_only': True}
         }
+
 
 class UserSerializer(serializers.ModelSerializer):
     contacts = ContactSerializer(read_only=True, many=True)
